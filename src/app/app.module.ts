@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './button/button.component';
 import { DisplayComponent } from './display/display.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DisplayComponent } from './display/display.component';
   ],
   imports: [
     BrowserModule,
+    MatButtonModule,
     HttpModule
   ],
   providers: [ApiService],

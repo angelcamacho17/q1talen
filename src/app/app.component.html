@@ -1,7 +1,8 @@
-<div class="row">
-  <div class="col-xs-12  col-sm-12 col-md-12 col-lg-12">
+<div class="app">
+  <div class="content mat-elevation-z2">
+    <h2>Date API</h2>
     <app-button (passDate)="getDateTime($event)"></app-button>
-  </div>
     <app-display [date]="dateTimeObj"></app-display>
+  </div>
 </div>
 <!-- Fill the above HTML with necessary Angular 2 directives -->

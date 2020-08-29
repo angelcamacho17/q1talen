@@ -1,0 +1,14 @@
+:host {
+    width: 100%;
+}
+.date {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.row-date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
