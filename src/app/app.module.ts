@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 import { ApiService } from './api.service';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
+import { ButtonComponent } from './button/button.component';
+import { DisplayComponent } from './display/display.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule,
